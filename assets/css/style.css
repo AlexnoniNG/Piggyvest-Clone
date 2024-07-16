@@ -1,0 +1,518 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Reddit+Mono:wght@200..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f7f8;
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 30px;
+  box-shadow: 0px 0px 2px 0px;
+  /* position: fixed; */
+  position: sticky;
+}
+
+nav {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  margin-left: 30px;
+}
+
+ul li {
+  margin-top: 35px;
+  margin-left: 30px;
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: light;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.navbar-logo {
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.btn-holder {
+  margin-top: 15px;
+  margin-left: 300px;
+}
+
+.btn-1 {
+  padding: 18px;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid;
+  background: white;
+  font-weight: bold;
+}
+
+.btn-2 {
+  padding: 18px;
+  border-radius: 15px;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: #122231;
+  color: white;
+  border: 1px solid;
+  font-weight: bold;
+}
+
+.btn-2:hover {
+  background-color: black;
+}
+
+.hero-title {
+  margin-left: 50px;
+  margin-top: 80px;
+}
+.hero-title h1 {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.hero-title p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.download {
+  margin-top: 40px;
+}
+
+.android {
+  background-color: #122231;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.iphone {
+  background-color: #122231;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+.android:hover {
+  background-color: black;
+}
+.iphone:hover {
+  background-color: black;
+}
+
+.hero-container {
+  margin-top: 20px;
+  display: flex;
+}
+
+.hero-img {
+  margin-top: 30px;
+  margin-left: 250px;
+}
+
+.security-icon {
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  width: 100px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.security-icon i {
+  margin-top: 30px;
+}
+
+.security-container {
+  margin-top: 50px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.security-container .security-title {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.security-title p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.security-link:hover {
+  background-color: black;
+  color: white;
+  width: 250px;
+}
+
+.build-title {
+  margin-top: 80px;
+  margin-left: 130px;
+  margin-bottom: 50px;
+}
+.build-title h1 {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.build-title p {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.build-container {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.automated-savings {
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.automated-card {
+  background-color: white;
+  height: 150px;
+  width: 600px;
+  padding: 20px;
+  padding-bottom: 380px;
+  border-radius: 20px;
+}
+
+.automated-card h1 {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #0f60d6;
+}
+
+.automated-card p {
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: "Ubuntu Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: light;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.automated-icon p {
+  margin-top: 200px;
+}
+
+.automated-card:hover {
+  background-color: #0f60d6;
+  color: #f2f7f8 !important;
+}
+
+.automated-card:hover h1 {
+  color: #ffffff;
+}
+.automated-card:hover .safelock {
+  color: #ffffff;
+}
+.automated-card:hover .piggybank {
+  color: #ffffff;
+}
+.automated-card:hover .target-savings {
+  color: #ffffff;
+}
+.automated-card:hover .flexnaira {
+  color: #ffffff;
+}
+.automated-card:hover .flexdollar {
+  color: #ffffff;
+}
+
+.build-container-2 {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.automated-goal {
+  margin-left: 20px;
+}
+
+.automated-goal h1 {
+  color: green;
+}
+.automated-goal:hover {
+  background-color: #10b259;
+}
+
+.flex-naira h1 {
+  color: #e5489b;
+}
+
+.flex-dollar h1 {
+  color: #122231;
+}
+.flex-dollar:hover {
+  background-color: #122231;
+}
+
+.flex-naira:hover {
+  background-color: #e5489b;
+}
+
+.safelock {
+  color: #0f60d6;
+}
+
+.piggybank {
+  color: blue;
+}
+
+.target-savings {
+  color: green;
+}
+
+.flexnaira {
+  color: #e5489b;
+}
+
+.build-container-3 {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.invest-container {
+  margin-top: 70px;
+  background-color: white;
+  padding-bottom: 150px;
+}
+
+.invest-heading {
+  padding-top: 150px;
+  text-align: center;
+}
+
+.invest-heading h1 {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.invest-heading p {
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.returns-container {
+  padding-top: 50px;
+  margin-top: 30px;
+  margin-left: 60px;
+  padding-left: 40px;
+  padding-bottom: 0px;
+  background-color: #7913e5;
+  border-radius: 30px;
+  width: 1180px;
+}
+
+.returns-heading h1 {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+
+.returns-heading p {
+  margin-top: 45px;
+  font-size: 25px;
+  color: white;
+  font-weight: light;
+}
+
+.return-flex-container {
+  display: flex;
+}
+
+.returns-image {
+  margin-left: 150px;
+}
+
+.returns-icon p {
+  margin-top: 180px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.saver-of-the-month {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.saver-of-the-month h1 {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.saver-of-the-month p {
+  margin-top: 15px;
+  font-size: 25px;
+  font-weight: light;
+}
+
+.youtube-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.youtube-section iframe {
+  border-radius: 10px;
+}
+
+.stories-container {
+  margin-top: 180px;
+  display: flex;
+}
+
+.stories-img {
+  margin-left: 50px;
+}
+
+.stories-heading {
+  margin-top: 180px;
+  margin-left: 80px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.button-holder-stories {
+  margin-top: 25px;
+}
+
+.btn-stories-iphone {
+  padding: 10px;
+  background-color: #f2f7f8;
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+}
+.btn-stories-android {
+  padding: 10px;
+  background-color: #f2f7f8;
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+}
+
+.footer-container {
+  margin-top: 150px;
+  background-color: #f5f9f6;
+  padding-bottom: 100px;
+}
+
+.fetaured-heading {
+  text-align: center;
+  padding-top: 40px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.partners-container {
+  margin-top: 60px;
+  margin-left: 50px;
+}
+
+.partners-container img {
+  margin-left: 30px;
+}
+
+.footer-nav {
+  display: flex;
+}
+
+.footer-nav {
+  margin-top: 150px;
+}
+.footer-logo {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.footer-logo img {
+  display: block;
+}
+
+.compliance-img {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.product-nav ul {
+  display: block;
+  margin-left: 80px;
+}
+
+.product-nav ul li {
+  margin-top: 15px;
+}
+
+.socials-footer img {
+  padding-top: 15px;
+  margin-left: 15px;
+}
+
+.socials-float {
+  text-align: right;
+  margin-left: 200px;
+}
+
+.address {
+  margin-top: 10px;
+}
+
+.address p {
+  margin-top: 15px;
+}
+
+hr {
+  margin-top: 80px;
+  color: #cfcfcf;
+  width: 1180px;
+  margin-left: 50px;
+}
+
+.about-footer {
+  margin-top: 20px;
+  font-size: 13px;
+  margin-left: 50px;
+}
+
+.copyright {
+  color: #0f60d6;
+}
+
+.copyright:hover {
+  color: #122231;
+}
